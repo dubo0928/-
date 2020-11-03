@@ -15,9 +15,8 @@ public class TestController {
 	
 	@RequestMapping("hello")
 	@ResponseBody
-	public String hello(@DateTimeFormat(pattern="yyyy-MM-dd hh:mm:ss") Date date,String str) {
-		SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	public String hello() {
 		
-		return "hello"+sf.format(date)+"==="+str;
+		return "Jenkins构建成功";
 	}
 }
