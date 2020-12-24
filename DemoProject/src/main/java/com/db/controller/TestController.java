@@ -17,6 +17,6 @@ public class TestController {
 	@ResponseBody
 	public String hello() {
 		
-		return "Jenkins构建成功";
+		return "爱死婷宝宝了";
 	}
 }
